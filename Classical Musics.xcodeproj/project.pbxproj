@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		135909F91DF1CFDC0050DC04 /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135909F81DF1CFDC0050DC04 /* VideoVC.swift */; };
+		135909FC1DF1D2470050DC04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 135909FA1DF1D2470050DC04 /* Main.storyboard */; };
 		13781D991DF0F15E00B1414B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13781D981DF0F15E00B1414B /* AppDelegate.swift */; };
 		13781D9B1DF0F15E00B1414B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13781D9A1DF0F15E00B1414B /* ViewController.swift */; };
-		13781D9E1DF0F15E00B1414B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13781D9C1DF0F15E00B1414B /* Main.storyboard */; };
 		13781DA01DF0F15E00B1414B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13781D9F1DF0F15E00B1414B /* Assets.xcassets */; };
 		13781DA31DF0F15E00B1414B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13781DA11DF0F15E00B1414B /* LaunchScreen.storyboard */; };
 		13781DAE1DF0F15E00B1414B /* Classical_MusicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13781DAD1DF0F15E00B1414B /* Classical_MusicsTests.swift */; };
 		13781DB91DF0F15E00B1414B /* Classical_MusicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13781DB81DF0F15E00B1414B /* Classical_MusicsUITests.swift */; };
+		13781DCB1DF0F6E600B1414B /* freebooterscript.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13781DCA1DF0F6E600B1414B /* freebooterscript.ttf */; };
+		13781DCF1DF126FE00B1414B /* SongsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13781DCE1DF126FE00B1414B /* SongsCell.swift */; };
+		13781DD11DF127F800B1414B /* Mozart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13781DD01DF127F800B1414B /* Mozart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		135909F81DF1CFDC0050DC04 /* VideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoVC.swift; sourceTree = "<group>"; };
+		135909FB1DF1D2470050DC04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		13781D951DF0F15E00B1414B /* Classical Musics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Classical Musics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13781D981DF0F15E00B1414B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13781D9A1DF0F15E00B1414B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		13781D9D1DF0F15E00B1414B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		13781D9F1DF0F15E00B1414B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13781DA21DF0F15E00B1414B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13781DA41DF0F15E00B1414B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +52,9 @@
 		13781DB41DF0F15E00B1414B /* Classical MusicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Classical MusicsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13781DB81DF0F15E00B1414B /* Classical_MusicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classical_MusicsUITests.swift; sourceTree = "<group>"; };
 		13781DBA1DF0F15E00B1414B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13781DCA1DF0F6E600B1414B /* freebooterscript.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = freebooterscript.ttf; path = "../../../../Downloads/Freebooter-Script/freebooterscript.ttf"; sourceTree = "<group>"; };
+		13781DCE1DF126FE00B1414B /* SongsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongsCell.swift; sourceTree = "<group>"; };
+		13781DD01DF127F800B1414B /* Mozart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mozart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +105,12 @@
 		13781D971DF0F15E00B1414B /* Classical Musics */ = {
 			isa = PBXGroup;
 			children = (
+				13781DC91DF0F6D300B1414B /* Files */,
+				13781DC61DF0F16800B1414B /* Model */,
+				13781DC71DF0F17100B1414B /* View */,
+				13781DC81DF0F18300B1414B /* Controller */,
 				13781D981DF0F15E00B1414B /* AppDelegate.swift */,
-				13781D9A1DF0F15E00B1414B /* ViewController.swift */,
-				13781D9C1DF0F15E00B1414B /* Main.storyboard */,
+				135909FA1DF1D2470050DC04 /* Main.storyboard */,
 				13781D9F1DF0F15E00B1414B /* Assets.xcassets */,
 				13781DA11DF0F15E00B1414B /* LaunchScreen.storyboard */,
 				13781DA41DF0F15E00B1414B /* Info.plist */,
@@ -123,6 +134,39 @@
 				13781DBA1DF0F15E00B1414B /* Info.plist */,
 			);
 			path = "Classical MusicsUITests";
+			sourceTree = "<group>";
+		};
+		13781DC61DF0F16800B1414B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				13781DD01DF127F800B1414B /* Mozart.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		13781DC71DF0F17100B1414B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				13781DCE1DF126FE00B1414B /* SongsCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		13781DC81DF0F18300B1414B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				13781D9A1DF0F15E00B1414B /* ViewController.swift */,
+				135909F81DF1CFDC0050DC04 /* VideoVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		13781DC91DF0F6D300B1414B /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				13781DCA1DF0F6E600B1414B /* freebooterscript.ttf */,
+			);
+			name = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,7 +284,8 @@
 			files = (
 				13781DA31DF0F15E00B1414B /* LaunchScreen.storyboard in Resources */,
 				13781DA01DF0F15E00B1414B /* Assets.xcassets in Resources */,
-				13781D9E1DF0F15E00B1414B /* Main.storyboard in Resources */,
+				13781DCB1DF0F6E600B1414B /* freebooterscript.ttf in Resources */,
+				135909FC1DF1D2470050DC04 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,8 +310,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				135909F91DF1CFDC0050DC04 /* VideoVC.swift in Sources */,
+				13781DD11DF127F800B1414B /* Mozart.swift in Sources */,
 				13781D9B1DF0F15E00B1414B /* ViewController.swift in Sources */,
 				13781D991DF0F15E00B1414B /* AppDelegate.swift in Sources */,
+				13781DCF1DF126FE00B1414B /* SongsCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,10 +350,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		13781D9C1DF0F15E00B1414B /* Main.storyboard */ = {
+		135909FA1DF1D2470050DC04 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				13781D9D1DF0F15E00B1414B /* Base */,
+				135909FB1DF1D2470050DC04 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -501,6 +549,7 @@
 				13781DBF1DF0F15E00B1414B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13781DC01DF0F15E00B1414B /* Build configuration list for PBXNativeTarget "Classical MusicsTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +558,7 @@
 				13781DC21DF0F15E00B1414B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13781DC31DF0F15E00B1414B /* Build configuration list for PBXNativeTarget "Classical MusicsUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +567,7 @@
 				13781DC51DF0F15E00B1414B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
